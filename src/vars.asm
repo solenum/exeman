@@ -67,10 +67,10 @@ game_won:     DB
 SECTION "OAM Vars",WRAM0[$C100]
 
 ;player sprites (9)
-enemy_sprite:  DS 36
 player_sprite:  DS 36
+
+;enemy sprite
+enemy_sprite:  DS 36
 
 ;bullet sprites (4)
 player_bullets: DS 16
-
-;enemy sprite
